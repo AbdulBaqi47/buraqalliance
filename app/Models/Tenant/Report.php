@@ -6,7 +6,7 @@ use App\Helpers\NullRelation;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use App\Traits\LogActivityTrait;
 use App\Traits\AutoIncreamentTrait;
-use MongoDB\Laravel\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class Report extends Model

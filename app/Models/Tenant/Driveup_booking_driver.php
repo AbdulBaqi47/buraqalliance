@@ -5,7 +5,7 @@ namespace App\Models\Tenant;
 use App\Traits\AutoIncreamentTrait;
 use App\Traits\LogActivityTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use MongoDB\Laravel\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 use MongoDB\Laravel\Eloquent\SoftDeletes;
 
 class Driveup_booking_driver extends Model

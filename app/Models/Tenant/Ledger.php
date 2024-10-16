@@ -3,7 +3,7 @@
 namespace App\Models\Tenant;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use MongoDB\Laravel\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
 use App\Traits\AutoIncreamentTrait;
 use App\Traits\LogActivityTrait;

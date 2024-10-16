@@ -5,7 +5,7 @@ namespace App\Models\Tenant;
 use App\Accounts\Models\Account;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use App\Traits\LogActivityTrait;
-use MongoDB\Laravel\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 use MongoDB\Laravel\Eloquent\SoftDeletes;
 
 class AddonExpense extends Model

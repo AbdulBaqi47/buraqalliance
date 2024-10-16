@@ -6,7 +6,7 @@ use App\Models\Tenant\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 // use Illuminate\Database\Eloquent\Model;
-use MongoDB\Laravel\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
 use App\Accounts\Traits\AccountLogsTrait;
 use App\Traits\AutoIncreamentTrait;
