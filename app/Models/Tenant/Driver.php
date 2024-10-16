@@ -5,7 +5,7 @@ namespace App\Models\Tenant;
 use App\Traits\{AutoIncreamentTrait, LogActivityTrait};
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Support\Facades\Auth;
-use MongoDB\Laravel\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 use MongoDB\Laravel\Eloquent\SoftDeletes;
 
 class Driver extends Model

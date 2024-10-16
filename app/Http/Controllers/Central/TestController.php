@@ -26,7 +26,7 @@ class TestController extends Controller
             'id' => $tenant_name,
         ]);
         // return  $tenant1->domains()->get();
-        $tenant->domains()->create(['domain' => $tenant_name.'.manage-fleet.com']);
+        $tenant->domains()->create(['domain' => $tenant_name.'.buraqalliencev2.test']);
 
         $tenant->run(function () use ($tenant_name) {
             User::create([

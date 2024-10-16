@@ -5,7 +5,7 @@ namespace App\Accounts\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 // use Illuminate\Database\Eloquent\Model;
-use MongoDB\Laravel\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class Account_log extends Model
 {

@@ -16,7 +16,9 @@ return [
      *
      * Only relevant if you're using the domain or subdomain identification middleware.
      */
-    'central_domains' => explode(',', env('tenancy_domains', '')),
+    'central_domains' => [
+        'buraqalliencev2.test'
+    ],
 
     /**
      * Tenancy bootstrappers are executed when tenancy is initialized.

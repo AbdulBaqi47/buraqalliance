@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 class UserSeeder extends Seeder
@@ -18,22 +19,21 @@ class UserSeeder extends Seeder
             [
                 'name' => 'Admin',
                 'email' => 'admin@kingsgroup.ae',
-                'user_type'=>'employee',
-                'designation'=>'Super User',
+                'user_type' => 'employee',
+                'designation' => 'Super User',
                 'email_verified_at' => null,
                 'password' => bcrypt('aamir!!@@3'), // password
                 'remember_token' => Str::random(10),
-                'type'=>'su',
-                'props'=>[],
-                'status'=>1,
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'type' => 'su',
+                'props' => json_encode([]), // Store as an empty JSON array
+                'status' => 1,
+                'created_at' => now(), // Use now() for the timestamp
+                'updated_at' => now(),
             ]
         ];
-        if(\DB::getCollection('users')->count() == 0)
-        {
-           \DB::getCollection('users')->insertMany($admins);
-        }
 
+        if (DB::table('users')->count() == 0) {
+            DB::table('users')->insert($admins);
+        }
     }
 }
