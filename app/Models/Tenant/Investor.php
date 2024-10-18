@@ -9,8 +9,8 @@ use Illuminate\Database\Eloquent\Model;
 use App\Traits\LogActivityTrait;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
-use MongoDB\Laravel\Auth\User as Authenticatable;
-// use Illuminate\Foundation\Auth\User as Authenticatable;
+// use MongoDB\Laravel\Auth\User as Authenticatable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use MongoDB\Laravel\Eloquent\SoftDeletes;
 

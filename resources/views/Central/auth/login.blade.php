@@ -6,7 +6,7 @@
 	<head>
 		<base href="../../">
 		<meta charset="utf-8" />
-		<title>Login | Kinglimousine</title>
+		<title>Login | Buraq Alliance</title>
 		<meta name="description" content="We provide luxury transport. With a fleet of extravagant vehicles, professional chauffeur drivers, and impeccable service">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -37,7 +37,7 @@
         <link href="{{asset('theme/css/skins/aside/light.css')}}" rel="stylesheet" type="text/css" />
 
         <!--end::Layout Skins -->
-        <link rel="shortcut icon" href="{{ asset('media/logo/company-logo.png') }}" />
+        <link rel="shortcut icon" href="{{ asset('media/logo/Buraq-logo.png') }}" />
 	</head>
 
 	<!-- end::Head -->
@@ -56,7 +56,7 @@
 					<div class="kt-login-v2__head">
 						<div class="kt-login-v2__logo">
 							<a href="#" class="text-dark h5 mb-0">
-								<img src="{{ asset('media/logo/company-logo.png') }}" alt="" class="w-25" />
+								<img src="{{ asset('media/logo/Buraq-logo-inverse.png') }}" alt="" class="w-25" />
 
 							</a>
 						</div>

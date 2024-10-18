@@ -8,7 +8,7 @@ use Stancl\Tenancy\Contracts\TenantDatabaseManager;
 use Stancl\Tenancy\Contracts\TenantWithDatabase;
 use Stancl\Tenancy\Exceptions\NoConnectionSetException;
 
-class MongoDatabaseManager implements TenantDatabaseManager
+class MySQLDatabaseManager implements TenantDatabaseManager
 {
     /** @var string */
     protected $connection;

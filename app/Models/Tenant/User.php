@@ -4,8 +4,8 @@ namespace App\Models\Tenant;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use MongoDB\Laravel\Auth\User as Authenticatable;
-// use Illuminate\Foundation\Auth\User as Authenticatable;
+// use MongoDB\Laravel\Auth\User as Authenticatable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 use function PHPUnit\Framework\throwException;

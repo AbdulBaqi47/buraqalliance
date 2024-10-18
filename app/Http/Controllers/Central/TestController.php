@@ -26,16 +26,16 @@ class TestController extends Controller
             'id' => $tenant_name,
         ]);
         // return  $tenant1->domains()->get();
-        $tenant->domains()->create(['domain' => $tenant_name.'.buraqalliencev2.test']);
+        $tenant->domains()->create(['domain' => $tenant_name.'.buraqalliancev2.test']);
 
         $tenant->run(function () use ($tenant_name) {
             User::create([
                 'name' => 'Admin',
-                'email' => $tenant_name.'@kingsgroup.ae',
+                'email' => $tenant_name.'@buraqalliance.com',
                 'user_type'=>'employee',
                 'designation'=>'Super User',
                 'email_verified_at' => null,
-                'password' => bcrypt('aamir!!@@3'), // password
+                'password' => bcrypt('buraq!!@@47'), // password
                 'remember_token' => Str::random(10),
                 'type'=>'su',
                 'props'=>[],

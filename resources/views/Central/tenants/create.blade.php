@@ -27,7 +27,7 @@
                         <strong>{{ $message }}</strong>
                     </span>
                 @else
-                <span class="form-text text-muted">e.g. GG4</span>
+                <span class="form-text text-muted">e.g. buraq</span>
                 @enderror
             </div>
 
@@ -39,18 +39,18 @@
                         <strong>{{ $message }}</strong>
                     </span>
                 @else
-                <span class="form-text text-muted">e.g. gg4.manage-fleet.com. Must contains Alphanumeric letters, no special characters allowed except (-)</span>
+                <span class="form-text text-muted">e.g. buraq.buraqalliance.com. Must contains Alphanumeric letters, no special characters allowed except (-)</span>
                 @enderror
             </div>
-            
+
             <div class="kt-separator kt-separator--space-md kt-separator--border-solid"></div>
-            
+
             <div class="kt-section">
                 <div class="kt-section__title">
                     Create Super User
                 </div>
                 <div class="kt-section__content">
-                    
+
                     <div class="form-group mb-2">
                         <label>Full Name:</label>
                         <input type="text" autocomplete="off" name="su_name" required class="form-control @error('su_name') is-invalid @enderror" placeholder="Enter full name" value="{{old('su_name')}}">
@@ -139,7 +139,7 @@
                     /* clear the items */
                     $(TENANT_MODULE.container+' [name="name"]').val(null);
                     $(TENANT_MODULE.container+' [name="domain"]').val(null).prop('readonly', false);
-                    
+
                     $(TENANT_MODULE.container + ' [name="su_name"]').val(null);
                     $(TENANT_MODULE.container + ' [name="su_email"]').val(null).removeAttr('org-email');
                     $(TENANT_MODULE.container + ' [name="su_password"]').val(null);
@@ -180,7 +180,7 @@
         $(function(){
 
             $(TENANT_MODULE.container + ' .btnSubmit').on('click', function(){
-                
+
                 /* Do some validation */
                 var is_valid=true;
                 var form = $(TENANT_MODULE.container + ' form');
