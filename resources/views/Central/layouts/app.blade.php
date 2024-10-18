@@ -12,7 +12,7 @@
         @if (trim($__env->yieldContent('page_title')))
             @yield('page_title') | Administrator
         @else
-        Kinglimousine | Administrator
+        Buraqalliance | Administrator
         @endif
     </title>
 
@@ -51,7 +51,7 @@
     <link type="text/css" href="//gyrocode.github.io/jquery-datatables-checkboxes/1.2.12/css/dataTables.checkboxes.css" rel="stylesheet" />
 
     <!--end::Layout Skins -->
-    <link rel="shortcut icon" href="{{ asset('media/logo/company-logo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('media/logo/Buraq-logo-inerse.png') }}" />
 
 
     {{--------------------------------------
@@ -488,12 +488,12 @@
 
 
 </head>
-<body class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-aside--enabled kt-aside--fixed kt-aside-secondary--enabled kt-page--loading @if($helper_service->helper->getConfig()->sidebar!=1) kt-aside--minimize @endif">
+<body class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-aside--enabled kt-aside--fixed kt-aside-secondary--enabled kt-page--loading @if($helper_service->helper->getConfig()->sidebar!=1) kt-aside--minimize @endif" >
     <!-- begin:: Header Mobile -->
     <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
         <div class="kt-header-mobile__logo">
             <a href="{{url('/')}}" class="text-white h5 mb-0">
-                Kinglimousine
+                Buraqalliance
             </a>
         </div>
         <div class="kt-header-mobile__toolbar">

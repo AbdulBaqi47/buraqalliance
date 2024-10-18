@@ -1,15 +1,15 @@
-<div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed ">
+<div id="kt_header" class="kt-header kt-grid__item   kt-header--fixed " style="background-color: #0E2547">
     <!-- begin:: Header Topbar - LEFT -->
-    @if (config('app.debug'))
+    {{-- @if (config('app.debug'))
         <div class="d-flex align-items-center">
-            <h4 class="m-0">
+            <h4 class="ml-1">
                 <span class="badge badge-danger">{{ config('app.name') }}</span>
             </h4>
         </div>
     @else
 
         <div></div>
-    @endif
+    @endif --}}
 
     <!-- begin:: Header Topbar - CENTER -->
     <div class="d-flex justify-content-center align-items-center" style="padding-bottom: 1px; background-color: #242939;">

@@ -42,7 +42,7 @@ class TenantController extends Controller
     {
         return view('Central.tenants.create', compact('config'));
     }
-    
+
     /**
      * POST request of creating the tenant
      *
@@ -58,7 +58,7 @@ class TenantController extends Controller
             'su_password' => 'required|confirmed|min:8',
         ]);
         $domain_prefix = strtolower($request->get('domain', ''));
-        $domain = $domain_prefix.'.manage-fleet.com';
+        $domain = $domain_prefix.'.buraqalliance.com';
         $name = $request->get('name', '');
 
         $tenant = Tenant::create([
@@ -67,7 +67,7 @@ class TenantController extends Controller
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s')
         ]);
-        
+
         $tenant
         ->domains()
         ->create([
@@ -105,7 +105,7 @@ class TenantController extends Controller
     public function showEditForm()
     {
         $id = request()->get('id');
-        
+
         # Find the modal
         $tenant = Tenant::findOrFail($id);
         $tenant->actions=[
@@ -145,7 +145,7 @@ class TenantController extends Controller
 
         $tenant->name = $name;
         $tenant->update();
-        
+
         $tenant->run(function () use ($request) {
             $default_user = User::where('props.default', true)->first();
             $change_pass = false;
@@ -183,7 +183,7 @@ class TenantController extends Controller
 
         });
 
-        
+
         return redirect()->route('central.admin.tenants.view')->with('message', "Tenant updated successfully!");
     }
 

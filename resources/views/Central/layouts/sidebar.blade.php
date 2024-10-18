@@ -4,7 +4,7 @@
     $route_name = request()->route()->getName();
 @endphp
 <button class="kt-aside-close " id="kt_aside_close_btn"><i class="la la-close"></i></button>
-<div class="kt-aside  kt-grid__item kt-grid kt-grid--desktop kt-grid--hor-desktop" id="kt_aside">
+<div class="kt-aside  kt-grid__item kt-grid kt-grid--desktop kt-grid--hor-desktop" id="kt_aside" style="background-color: #0E2547">
 
     <!-- begin::Aside Brand -->
     <div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
@@ -14,10 +14,9 @@
                 class="kt-aside__brand-aside-toggler kt-aside__brand-aside-toggler--left @if ($helper_service->helper->getConfig()->sidebar != 1) kt-aside__brand-aside-toggler--active @endif"
                 id="kt_aside_toggler"><span></span></button>
         </div>
-        <div class="kt-aside__brand-logo ml-2">
+        <div class="kt-aside__brand-logo ml-2  mt-4">
             <a href="{{ url('/') }}" class="text-white h5 mb-0">
-                {{-- <img alt="Logo" class="w-25" src="{{ asset('media/logo/company-logo.png') }}" /> --}}
-                ERP
+                <img alt="Logo" class="w-100" src="{{ asset('media/logo/Buraq-logo.png') }}" />
             </a>
         </div>
     </div>

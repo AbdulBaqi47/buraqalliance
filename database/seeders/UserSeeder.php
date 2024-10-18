@@ -18,11 +18,11 @@ class UserSeeder extends Seeder
         $admins = [
             [
                 'name' => 'Admin',
-                'email' => 'admin@kingsgroup.ae',
+                'email' => 'admin@buraqalliance.com',
                 'user_type' => 'employee',
                 'designation' => 'Super User',
                 'email_verified_at' => null,
-                'password' => bcrypt('aamir!!@@3'), // password
+                'password' => bcrypt('buraq!!@@47'), // password
                 'remember_token' => Str::random(10),
                 'type' => 'su',
                 'props' => json_encode([]), // Store as an empty JSON array

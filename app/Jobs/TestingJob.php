@@ -2,7 +2,7 @@
 
 # ---------------------------------------------------
 # CMD: php artisan tinker -> \App\Jobs\TestingJob::dispatchSync();
-# LOGS PATH: /var/www/limo.kinglimousine.ae/storage/logs/crons/test-{YYYY-MM-DD}.log
+# LOGS PATH: /var/www/limo.buraqalliance.com/storage/logs/crons/test-{YYYY-MM-DD}.log
 # ---------------------------------------------------
 
 
