@@ -1,8 +1,10 @@
-## buraqalliance
+
+## Buraqalliance
 ##### run and follow these commands: 
 - Create a database locally named `buraqalliance` utf8_general_ci 
 - Download composer https://getcomposer.org/download/
 - Pull Laravel/php project from git provider i.e. `git clone https://github.com/testingatswt/buraqalliance.git`.
+
 - Copy `.env.backup` file to `.env`inside your project root and fill the database information.
   (windows wont let you do it, so you have to open your console cd your project root directory and run `cp .env.backup .env` )
 - Open the console and cd your project root directory
