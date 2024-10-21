@@ -17,7 +17,7 @@ return [
      * Only relevant if you're using the domain or subdomain identification middleware.
      */
     'central_domains' => [
-        'buraqalliancev2.test'
+        'buraqalliance_v2.test'
     ],
 
     /**
